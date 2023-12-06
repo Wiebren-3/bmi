@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <meta content="wiebren,wiebren-3,html,webdevelopment,fivem,fivemdevelopment,mlo,bmi,bmicalculato,bmi berekenen,bmiberekenen,bodymassindex" name="keywords">
+  <meta content="Wiebren-3 || Main" name="title">
+  <meta content="Wiebren.space is een website waar webdevelopment producten worden verkocht, zowel paid als free-release. Hiernaast worden er ook FiveM scripts/mlo verkocht/verkregen." name="description">
+  <link href="https://wiebren.space/img/ico/icon.ico" rel="icon">
+  <title>BMI Calculator</title>
+  <meta content="#0062ff" data-react-helmet="true" name="theme-color">
+</head>
+<body>
+  <div class="container">
+    <h1>BMI Calculator</h1>
+    <label for="gender">Geslacht:</label>
+    <select id="gender">
+      <option value="man">Man</option>
+      <option value="vrouw">Vrouw</option>
+      <option value="anders">Ik heb een mentale disorder</option>
+    </select>
+    <label for="age">Leeftijd:</label>
+    <input type="number" id="age" placeholder="Leeftijd">
+    <label for="height">Lengte (cm):</label>
+    <input type="number" id="height" placeholder="Lengte">
+    <label for="weight">Gewicht (kg):</label>
+    <input type="number" id="weight" placeholder="Gewicht">
+    <button onclick="calculateBMI()">Bereken BMI</button>
+    <div id="result"></div>
+  </div>
+  <script src="calculate.js"></script>
+</body>
+</html>
