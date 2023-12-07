@@ -1,4 +1,4 @@
-# bmi
+# BMI
 > A HTML, CSS, JS BMI calculator webpage. You can calculate your Body Mass Index with this script. Simple javascript script (calculate.js). You can visit the preview at https://wiebren.space/bmi/
 
 
